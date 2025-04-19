@@ -25,11 +25,12 @@ SECRET_KEY = 'django-insecure-wsi50tz%0hvyz6s0c($j4)(f=mq=r36wegu985#6a2h=r=7=is
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://weather-detector-django.onrender.com',
 ]
+ALLOWED_HOSTS = ['weather-detector-django.onrender.com']
 
 
 # Application definition
