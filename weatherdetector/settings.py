@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-wsi50tz%0hvyz6s0c($j4)(f=mq=r36wegu985#6a2h=r=7=is
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['weather-detector-django.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['weather-detector-django.onrender.com', '127.0.0.1', 'localhost']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://weather-detector-django.onrender.com',
@@ -61,7 +61,7 @@ ROOT_URLCONF = 'weatherdetector.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR /, 'templates'],
+        'DIRS': [BASE_DIR, 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
